@@ -1,0 +1,215 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar1{
+    background-color: rgb(50, 49, 49);
+    color: aliceblue;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 15;
+}
+#navbar2{
+    background-color:rgb(50, 49, 49);
+    width: 70%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hero{
+    background-image: url(./assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+#herotext{
+    text-align: center;
+    position: relative;
+    top: 77%;
+}
+#heromota{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./assets/hero_mota__firez5xepkeq_large.jpg);
+    color: antiquewhite;
+    margin-top: 10px;
+}
+#heromota2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 50px;
+}
+#heromota3{
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+#stream{
+    font-size: 25px;
+    color: rgb(175, 177, 170);
+}
+#iphone{
+    width: 100%;
+    height: 600px;
+    background-image: url(./assets/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+#iphonetext{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+#iancor{
+    color: rgb(14, 107, 200);
+}
+
+#iphone15{
+   background-image: url(./assets/promo_iphone15_announce__fmxxi8r9fkuy_large.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height:500px;
+   width: 755px;
+   margin: 10px;
+   
+   
+}
+#mainBox4{
+    display: flex;
+}
+
+#iphone15Text{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+#buy{
+    color: rgb(14, 107, 204);
+}
+
+/* TradeIn Work */
+
+#tradeIn{
+    background-image: url(./assets/promo_iphone_tradein__bugw15ka691e_large.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+    width: 755px;
+    margin: 10px 10px 10px 0px;
+}
+#tradeInText{
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+
+/* box 5 */
+#valentine{
+    width: 755px;
+    height: 500px;
+    background-image: url(./assets/valentine\ day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 10px 10px 10px;
+}
+#valentineText{
+    text-align: center;
+    position: relative;
+    top: 350px;
+    font-size: larger;
+}
+#watch9{
+    width: 755px;
+    height: 500px;
+    background-image: url(./assets/watch\ series\ 9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 10px 10px 0px;
+
+}
+#mainbox5{
+    display: flex;
+}
+
+#watchText{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#appleicon{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#ultraWatch{
+    width: 755px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./assets/watch\ ultra\ 2.jpg);
+    margin: 0px 10px 10px 10px;
+    
+}
+#ultrawatchText{
+    
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+#idCard{
+    width: 755px;
+    height: 500px;
+    background-image: url(./assets/card.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 10px 10px 0px;
+    
+}
+#mainbox6{
+    display: flex;
+}
+#appleicon2{
+    font-size: 40px;
+}
+#idcardText{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+
+#para{
+    margin: 20px 50px;
+    color: rgb(80, 76, 76);
+    
+}
+.carousel-item active{
+    width: 100%;
+    height: 100vh0;
+}
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+}
